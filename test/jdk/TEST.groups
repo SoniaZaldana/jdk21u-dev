@@ -25,6 +25,9 @@
 # Tiered testing definitions
 #
 
+reproducer = \
+    com/sun/jndi/ldap/LdapPoolTimeoutTest.java
+
 # When adding tests to tier1, make sure they end up in one of the tier1_partX groups
 tier1 = \
     :tier1_part1 \
